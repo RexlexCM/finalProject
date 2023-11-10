@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Read File</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+      <h1>File List</h1>
+      <h2>This is all the text files you have created</h2>
+      <ul id="fileList"></ul>
+    </div>
+    <div class="container">
+      <h1>File Content</h1>
+      <h2>Access text file here, please include .txt or press one of the text file in the list</h2>
+      <center><input type="text" id="fileNameInput" placeholder="Enter file name"><br>
+      <button id="btnAccess">Access File</button></center><br>
+      <textarea id="fileContents" rows="10" cols="69"></textarea>
+      <br>
+      <center><button id="btnUpdate">Update File</button>
+      <button id="btnDelete">Delete File</button></center>
+    </div>
+    <script src="ReadUpdDel.js"></script>
+</body>
+</html>

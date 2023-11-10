@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>MealPlanner</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Welcome to MealPlanner</h1>
+      <h2>Enter a food item name here</h2>
+      <center><input type="text" id="foodInput" placeholder="Enter food item"></center>
+      <center><button onclick="searchButton()">Search</button></center>
+      <p>Click on a recipe from the list to view details:</p>
+      <ul id="recipeList"></ul>
+      <div id="recipeDetails" style="display: none;">
+        <center><h2 id="recipeName"></h2></center>
+        <center><img id="recipeImage" alt="Recipe Image"></center>
+        <p id="recipeIngredients"></p>
+        <p id="recipeInstructions"></p>
+        <a id="recipeURL" target="_blank" href=""></a>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>

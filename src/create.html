@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>CRUD App</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+      <div class="container">
+      <h1>Create text file</h1>
+      <h2>Write something here! It could even be a list of things for you to remember.</h2>
+
+      <form>
+          <label>File name</label>
+          <input id="fileName" type="text" class="input-name" placeholder="Enter a name here">
+          <br>
+          <p>Content</p>
+          <textarea id="fileContents" rows="5" cols="70" placeholder="Write anything here"></textarea>
+      </form>
+
+      <center><button id="btnCreate" class="btn btn-default">Create</button></center>
+      </div>
+    <script src="Create.js"></script>
+
+  </body>
+</html>
